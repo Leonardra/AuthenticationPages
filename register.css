@@ -1,0 +1,113 @@
+:root {
+  background-color: #18cdca;
+
+}
+
+.body{
+  background-image: linear-gradient(to bottom left, rgb(17, 0, 255), #18cdca);
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: Nunito;
+}
+
+.entry-point {
+  display: inline-flex;
+}
+
+.entry-point button {
+  width: 12.5rem;
+  height: 2.5rem;
+  border-radius: 3px;
+  background-color:  #4f80e1;
+  color: white;
+  border-style: solid;
+  border-color: #f0f0f1;
+  border-width: 1px;
+  outline: none;
+}
+
+#container {
+  width: 25rem;
+  height: 32rem;
+  background-color: #f0f0f1;
+  border-radius: 9px;
+  align-items: center;
+  margin-left: 27rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area {
+  margin-top: 2.7rem;
+}
+
+.field {
+  justify-content: space-around;
+}
+
+.field p {
+  margin-bottom: 0.2rem;
+  font-size: 75%;
+  color: gray;
+}
+
+.success-alert {
+  width: 30rem;
+  height: 7rem;
+  background-color: green;
+  border-radius: 7px;
+  opacity: 60%;
+  color: white;
+  margin-top: -35rem;
+  margin-left: 25rem;
+}
+
+.failed-alert {
+  width: 30rem;
+  height: 7rem;
+  border-radius: 7px;
+  background-color: red;
+  opacity: 60%;
+  color: white;
+  margin-top: -35rem;
+  margin-left: 25rem;
+}
+
+.field input {
+  margin-top: -5.5rem;
+  margin-bottom: 0.3rem;
+  height: 1.5rem;
+  width: 20rem;
+  border-radius: 3px;
+  border-color: rgb(99, 99, 99);
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+.text-area button {
+  margin-left: 7rem;
+  margin-top: 1rem;
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  outline: none;
+  background-color: #4f80e1;
+  border-radius: 3px;
+  color: white;
+}
+
+#login {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  outline: none;
+  background-color: #4f80e1;
+  border-radius: 3px;
+  color: white;
+}
